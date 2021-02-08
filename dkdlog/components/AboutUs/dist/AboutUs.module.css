@@ -1,0 +1,142 @@
+.container {
+  background-color: #b73539;
+  font-family: "Josefin Sans", sans-serif;
+  padding-top: 9rem;
+}
+.container .wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
+.container .bigTruckLogo {
+  position: absolute;
+  opacity: 0.15;
+  left: 40%;
+  top: -14%;
+}
+.container .aboutUsTextContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 25%;
+  color: white;
+}
+.container .aboutUsTextContainer h2 {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 3.3rem;
+  width: 85%;
+  padding: 2rem 0;
+  text-align: center;
+}
+.container .aboutUsTextContainer h4 {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 3rem;
+}
+.container .aboutUsTextContainer p {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.4;
+  padding: 1rem 0;
+}
+.container .aboutUsTextContainer button {
+  font-family: "Maven Pro", sans-serif;
+  padding: 1.5rem 5rem;
+  border-radius: 2rem;
+  border-style: none;
+  background-color: #b73539;
+  color: white;
+  box-shadow: none;
+  margin: 1rem 1rem;
+  font-size: 1.3rem;
+  transition: 0.8s;
+}
+.container .aboutUsTextContainer button:hover {
+  background-color: white;
+  color: black;
+}
+.container .aboutUsImageContainer {
+  padding-top: 2rem;
+  overflow: hidden;
+  transition-duration: 1s;
+  font-family: "Maven Pro", sans-serif;
+}
+.container .aboutUsImageContainer .sideImages {
+  flex-basis: 100%;
+  position: relative;
+  display: flex;
+}
+.container .aboutUsImageContainer .sideImages .aboutUsImageContainer1 {
+  width: 30%;
+  flex: 0 0 auto;
+}
+.container .aboutUsImageContainer .sideImages .aboutUsImageContainer1 .aboutUsImage1 {
+  display: flex;
+  text-align: center;
+  min-height: 250px;
+  width: 100%;
+  background-color: rgba(134, 69, 69, 0);
+  background-position: center center;
+  background-size: cover;
+  background-image: url("../../assets/image3.jpg");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  box-shadow: 0px 10px 30px 0px rgba(49, 52, 57, 0.3);
+  transform: translateX(0%) translateY(20%);
+  transform-origin: center center 0px;
+  border-radius: 2rem 2rem 0 0;
+  transition: 1s;
+  filter: grayscale(100%);
+}
+.container .aboutUsImageContainer .sideImages .aboutUsImageContainer1 .aboutUsImage1:hover {
+  filter: grayscale(0%);
+}
+.container .aboutUsImageContainer .sideImages .aboutUsImageContainer2 {
+  width: 40%;
+  flex: 0 0 auto;
+}
+.container .aboutUsImageContainer .sideImages .aboutUsImageContainer2 .aboutUsImage2 {
+  text-align: center;
+  min-height: 300px;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("../../assets/image2.jpg");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  box-shadow: 0px 10px 30px 0px rgba(49, 52, 57, 0.3);
+  border-radius: 2rem 2rem 0 0;
+  transition: 1s;
+  filter: grayscale(100%);
+}
+.container .aboutUsImageContainer .sideImages .aboutUsImageContainer2 .aboutUsImage2:hover {
+  filter: grayscale(0%);
+}
+.container .aboutUsImageContainer .sideImages .aboutUsImageContainer3 {
+  width: 30%;
+  flex: 0 0 auto;
+}
+.container .aboutUsImageContainer .sideImages .aboutUsImageContainer3 .aboutUsImage3 {
+  display: flex;
+  text-align: center;
+  min-height: 250px;
+  width: 100%;
+  background-color: rgba(134, 69, 69, 0);
+  background-position: center center;
+  background-size: cover;
+  background-image: url("../../assets/image4.jpg");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  box-shadow: 0px 10px 30px 0px rgba(49, 52, 57, 0.3);
+  transform: translateX(0%) translateY(20%);
+  transform-origin: center center 0px;
+  border-radius: 2rem 2rem 0 0;
+  transition: 1s;
+  filter: grayscale(100%);
+}
+.container .aboutUsImageContainer .sideImages .aboutUsImageContainer3 .aboutUsImage3:hover {
+  filter: grayscale(0%);
+}

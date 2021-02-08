@@ -1,0 +1,24 @@
+{
+  "name": "dkdlog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "next": "10.0.5",
+    "next-images": "^1.7.0",
+    "nodemailer": "^6.4.17",
+    "react": "^17.0.1",
+    "react-alice-carousel": "^2.3.0",
+    "react-dom": "^17.0.1",
+    "react-i18next": "^11.8.5",
+    "react-responsive-carousel": "^3.2.11",
+    "sass": "^1.32.5"
+  }
+}
